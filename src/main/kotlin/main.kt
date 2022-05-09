@@ -1,0 +1,15 @@
+fun main(){
+    var nums= listOf(43,256,32,12,24,67,42,53,16)
+    println(nums.count())
+    println(nums.maxOrNull())
+    println(nums.minOrNull())
+    println(nums.last())
+    println(nums.first())
+    println(nums.average())
+    println(nums.sum())
+    var color= mutableListOf("blue","yellow","pink","violet","black","red")
+    println(color[0])
+    println(color.get(2))
+    println(color.indexOf("violet"))
+    println(color.lastIndex)
+}
